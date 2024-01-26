@@ -1,0 +1,239 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration:none;}
+.txt-rt{text-align:right;}
+.txt-lt{text-align:left;}
+.txt-center{text-align:center;}
+.float-rt{float:right;}
+.float-lt{float:left;}
+.clear{clear:both;}
+.pos-relative{position:relative;}
+.pos-absolute{position:absolute;}
+.vertical-base{	vertical-align:baseline;}
+.vertical-top{	vertical-align:top;}
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}
+img{max-width:100%;max-height: 100%;}
+/*end reset*/
+@font-face{
+font-family: "Ubuntu-Regular";
+src:url(../css/fonts/Ubuntu-Regular.ttf);
+}
+@font-face{
+font-family: "University";
+src:url(../css/fonts/University.otf);
+}
+@font-face{
+font-family: "MeltedMonster";
+src:url(../css/fonts/MeltedMonster.ttf);
+}
+body{
+width:100%;
+text-align:center;
+font-family: "Ubuntu-Regular";
+}
+/* -- Anasayfa -- */
+.banner{
+background: url("../img/arkaplan1.webp" ) 0px 0px no-repeat;
+width:100%;
+height:1080px;
+background-size:cover;
+}
+.icerik0 h1{
+padding-top:50px;
+font-family: "University";
+text-align:center;
+font-size:200px;
+color: #fff;
+}
+.icerik0 h2{
+font-family: "Ubuntu-Regular";
+text-align:center;
+font-size:17px;
+color: #fff;
+padding-left: 500px;
+}
+/* -- Sunucularımız -- */
+.sunucularimiz{
+background-color: #1d1d1c;
+}
+.ekibimiz{
+background:#ffffff;
+}
+.kategori{
+padding:100px 0;
+}
+.icerik1 h3{
+color: #fff;
+font-family: "Ubuntu-Regular";
+font-size:60px;
+padding:25px 0;
+padding-bottom:50px;
+}
+.icerik1 h4{
+color: #fff;
+font-family: "Ubuntu-Regular";
+font-size:30px;
+padding-top:10px;
+}
+.icerik1 p{
+color: rgb(0, 255, 81);
+font-family: "Ubuntu-Regular";
+font-size:20px;
+padding-top:15px;
+padding-bottom:10px;
+}
+.img{
+width: 256px;
+height: 256px;
+}
+/* -- Ekibimiz -- */
+.icerik2 h3{
+color: #000;
+font-family: "MeltedMonster";
+font-size:60px;
+padding:25px 0;
+padding-bottom:50px;
+}
+.icerik2 h4{
+color: #000;
+font-family: "MeltedMonster";
+font-size:30px;
+padding-top:10px;
+}
+.icerik2 p{
+color: rgb(123, 0, 255);
+font-family: "Ubuntu-Regular";
+font-size:20px;
+padding-top:15px;
+padding-bottom:10px;
+}
+/* -- Hakkımızda -- */
+.hakkimizda{
+background:#000000;
+}
+.icerik3 h3{
+color: #ffffff;
+font-family: "Ubuntu-Regular";
+font-size:60px;
+}
+.icerik3 p{
+color: #ffffff;
+font-family: "Ubuntu-Regular";
+font-size: 22px;
+padding-top: 6px;
+}
+/* -- Youtube -- */
+.background{
+padding:15px 5px 15px 15px;
+background:#212020;
+}
+.padding-upcoming{
+padding:130px 0;
+font-family: "Ubuntu-Regular";
+}	
+.padding-upcoming h3{
+padding:25px 0;
+font-size:60px;
+font-family: "Ubuntu-Regular";
+font-weight:800;
+}
+.padding-upcoming span{
+color:red;
+}		
+.trailer iframe{
+width: 100%;
+height: 387px;
+}
+.trailer{
+padding-left: 0;
+}
+.sub-img{
+width:34%;
+float: left;
+}
+.sub-img img{
+width:82%;
+}
+.sub-text{
+padding-top:15px;
+float:right;
+width:60%;
+margin:0px;
+}
+.sub-text h4{
+font-size:20px;
+color: #5bb2fc;
+line-height: 28px;
+text-decoration:none;
+display: block;
+text-align:left;
+}
+.sub-text p{
+font-size: 14px;
+line-height: 20px;
+color: #888;
+margin-top: 8px;
+}
+.sub-trailer{
+background: #212020;
+}
+/*------- İletişim ------- */
+.iletisim{
+background:#1d1d1c;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.icerik5 h3{
+font-family: "University";
+font-size:22px;
+padding-bottom: 25px;
+color:#fff;
+}
+.icerik5 li{
+display: inline-block;
+}
+.icerik5 li a{
+display: inline-block;
+width: 64px;
+height: 64px;
+}
+.icerik5 li a.discord{
+background: url(../img/discord.webp) 0px 0px no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.icerik5 li a.instagram{
+background: url(../img/instagram.webp) 0px 0px no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.icerik5 li a.youtube{
+background: url(../img/youtube.webp) 0px 0px no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+/*------- Footer ------- */
+.footer{
+padding-bottom: 60px;
+}
+.footer p{
+font-size:20px;
+font-family: "Ubuntu-Regular";
+color: #fff;
+}
+.footer span{
+font-size:15px;
+font-family: "Ubuntu-Regular";
+color: #a1a1a1;
+}
